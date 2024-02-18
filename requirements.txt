@@ -1,0 +1,16 @@
+# Python ver 3.11.7
+# Base ----------------------------------------
+tqdm
+numpy == 1.26.3
+pandas >= 2.2.0
+matplotlib >= 3.8.3
+
+
+# Model ----------------------------------------
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+opencv-python == 4.9.0
+torchinfo >= 1.8.0
+ultralytics == 8.1.15
+
+# SORT ----------------------------------------
+easydict
